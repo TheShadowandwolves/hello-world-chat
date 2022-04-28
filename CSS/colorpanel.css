@@ -1,0 +1,92 @@
+*{
+    background: black;
+    display: block;
+
+}
+body{
+    margin: 0;
+    margin-top: 0;
+}
+.panels{
+    margin: 1.5em 0;
+    margin-top: 0;
+    padding: 36px;
+    border-style: outset;
+    border-color: aqua;
+}
+.p1{
+
+    background: rgb(220,10,226);
+    background: linear-gradient(90deg, rgba(220,10,226,1) 0%, rgba(226,10,10,0.9948354341736695) 40%, rgba(255,226,0,1) 100%);
+}
+.p2{
+    background: rgb(10,76,226);
+background: linear-gradient(90deg, rgba(10,76,226,1) 4%, rgba(10,226,176,0.9948354341736695) 40%, rgba(5,242,124,1) 66%, rgba(215,255,0,1) 100%);
+}
+.p3{
+    background: rgb(226,31,10);
+background: linear-gradient(90deg, rgba(226,31,10,1) 4%, rgba(242,5,185,1) 31%, rgba(24,10,226,0.9948354341736695) 61%, rgba(132,0,255,1) 91%);
+
+}
+.p4{
+    background: rgb(101,226,10);
+background: linear-gradient(90deg, rgba(101,226,10,1) 4%, rgba(242,239,5,1) 50%, rgba(132,0,255,1) 91%);
+}
+.p5{
+    background: rgb(10,226,202);
+background: linear-gradient(90deg, rgba(10,226,202,1) 4%, rgba(242,239,5,1) 50%, rgba(255,0,56,1) 91%);
+}
+.p6{
+    background: rgb(0,9,8);
+background: linear-gradient(90deg, rgba(0,9,8,1) 4%, rgba(242,5,5,1) 50%, rgba(228,255,0,1) 91%);
+
+}
+.p7{
+    background: rgb(0,22,255);
+background: linear-gradient(90deg, rgba(0,22,255,1) 4%, rgba(255,255,255,1) 41%, rgba(255,255,255,1) 55%, rgba(255,0,0,1) 91%);
+
+}
+.p8{
+    background: rgb(0,22,255);
+background: linear-gradient(90deg, rgba(0,22,255,1) 4%, rgba(22,255,0,1) 55%, rgba(255,0,245,1) 91%);
+
+}
+.p9{
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 4%, rgba(185,71,23,1) 55%, rgba(22,36,158,0.9612219887955182) 91%);
+    margin-bottom: 1em;
+}
+.loader-wrapper{
+
+    width: 60px;
+    height: 60px;
+}
+.loader{
+    
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    border: 10px solid #162534;
+    border-top-color: #4bc8eb;
+    border-bottom-color: #f13a8f;
+    border-radius: 50%;
+    animation: rotate 5s linear infinite;
+
+}
+.loader-inner{
+    border-top-color: #36f372;
+    border-bottom-color: white;
+    animation-duration: 2.5s;
+
+}
+@keyframes rotate{
+    0%{
+        transform: scale(1) rotate(360deg);
+    }
+    50%{
+        transform: scale(.8) rotate(-360deg);
+    }
+    100%{
+        transform: scale(1) rotate(360deg);
+    }
+}
